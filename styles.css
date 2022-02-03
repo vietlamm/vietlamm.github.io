@@ -46,7 +46,9 @@ a.active, a:hover{
     display:none;
 }
 
-
+#check{
+    display:none;
+}
 
 @media (max-width: 858px;){
     .checkbtn{
@@ -74,7 +76,7 @@ a.active, a:hover{
     #check:checked ~ ul {
         left:0;
     }
-    
+
 }
     
  body{
