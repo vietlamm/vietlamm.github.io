@@ -13,7 +13,7 @@ nav{
 }
 
 nav ul{
-    text-align:center;
+    float: right;
     marigin-right:20px;
 }
 
@@ -31,7 +31,11 @@ nav ul li a{
     text-transform: uppercase;
 }
 
-
+a.active, a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+    
  body{
    background-color:#7FFFD4;
      }
